@@ -1,0 +1,433 @@
+@import "../scss/common/common";
+@import"../scss/layout/navbar";
+@import"../scss/layout/footer";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+#top{
+   
+    .container1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+
+        .logo{
+            margin-left: 95px;
+            padding: 20px;
+        
+        }
+        .ptags{
+            display: flex;
+            margin-left: 220px;
+            p{
+                font-size: 1.4rem;
+                padding: 10px;
+                color: rgb(216, 216, 216);
+             }
+        } 
+
+        .input {
+            input{
+              
+                margin-left: 35px;
+                width: 350px;
+                padding: 15px;
+                border: 1 solid #e5e7eb;
+                border-radius: 20px;
+                opacity: 0.8;
+                color: white;
+                font-size: 1.1rem;
+            }
+            
+        }
+
+        
+        .create{
+            button{
+                background-color: rgb(69, 121, 233);
+                padding: 15px;
+                width: 100px;
+                border-radius: 25px;
+                color: white;
+                font-size: 1.1rem;
+                text-decoration: solid;
+            }
+        }
+        .footer_image{
+            padding: 15px;
+            img{
+                border-radius: 25px;
+                width: 40px;
+                height: 40px;
+            }
+        }
+       
+    }
+    .container2 {
+        
+        img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+        
+    }
+    ::placeholder{
+        color: #a5a5a5;
+        font-size: 1rem;
+        text-decoration: white;
+        opacity: 0.8;
+    }
+
+    .container3{
+        border: 1px solid rgba(255, 255, 255, 0.171);
+        border-radius: 45px;
+        position: relative;
+        margin-left: 115px;
+        margin-top: -100px;
+        width: 1250px;
+        height: 450px;
+        background-color: rgb(5, 6, 37);
+        
+        
+
+        .img1{
+            img{
+                position: absolute;
+                width: 250px;
+                height: 250px;
+                border-radius: 25px;
+                margin: 35px 45px;
+            }
+           
+        }
+
+        .icons{
+            position: absolute;
+            margin-top: 320px;
+            margin-left: 50px;
+            
+           
+             a{
+                border-radius: 55px;
+                background-color: rgb(5, 6, 37);
+                padding: 20px;
+                color: rgb(255, 255, 255);
+            }
+            
+            
+        }
+        .texts{
+            h2{
+                color: rgba(255, 255, 255, 0.815);
+                margin: 55px 350px;
+                font-size: 2.8rem;
+                font-weight: 600;
+            }
+            span{
+                display: inline-block;
+                width: 600px;
+                color: rgba(255, 255, 255, 0.589);
+                margin-left: 350px;
+                margin-top: -30px;
+                font-size: 1.2rem;
+            }
+        }
+
+        .prices{
+            p{
+                font-size: 1.1rem;
+                color: rgba(255, 255, 255, 0.534);
+                text-align: center;
+            }
+            .price1{
+                border: 1px solid rgba(255, 255, 255, 0.349);
+                border-radius: 25px;
+                margin-left: 350px;
+                margin-top: 60px;
+                width: 170px;
+                height: 135px;
+                position: absolute;
+                background-color: rgb(5, 6, 37);
+               
+            }
+            .price2{
+                border: 1px solid rgba(255, 255, 255, 0.349);
+                border-radius: 25px;
+                margin-top: 60px;
+                margin-left: 550px;
+                width: 170px;
+                height: 135px;
+                position: absolute;
+                background-color: rgb(5, 6, 37);
+            }
+            .price3{
+                border: 1px solid rgba(255, 255, 255, 0.349);
+                border-radius: 25px;
+                margin-top: 60px;
+                margin-left: 760px;
+                width: 170px;
+                height: 135px;
+                position: absolute;
+                background-color: rgb(5, 6, 37);
+            }
+            .price4{
+                border: 1px solid rgba(255, 255, 255, 0.349);
+                 border-radius: 25px;
+                 margin-top: 60px;
+                margin-left: 950px;
+                width: 170px;
+                height: 135px;
+                position: absolute;
+                background-color: rgb(5, 6, 37);
+            }
+            .p1{
+                color: white;
+                font-size: 1.2rem;
+            }
+            .p2{
+                color: white;
+                font-size: 1.2rem;
+            }
+            .p3{
+                color: white;
+                font-size: 1.2rem;
+            }
+            .p4{
+                color: white;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+#buttons{
+    button{
+        display: flex;
+        border: none;
+        margin-left: 20px;
+      .btn1{
+        padding: 15px;
+        position: relative;
+        color: white;
+      }
+      .btn2{
+        padding: 15px;
+        color: white;
+
+      }
+      
+    }
+
+}
+
+#cards{
+   
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 35px;
+        margin-left: 85px;
+    }
+    img{
+        
+        width: 300px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 35px;
+    }
+    .photo1{
+        img{
+            position: relative;
+           
+        }
+       
+    }
+
+   
+    
+    svg{
+        position: absolute;
+        margin-left: -280px;
+        margin-top: 15px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        color: rgb(156, 156, 156);
+        border-radius: 15px;
+       
+    }
+
+    // i{
+    //     margin-left: -50px;
+    //     position: absolute;
+    //     color: white;
+        
+    //     padding: 15px;
+    // }
+
+    button{
+        margin-top: 10px;
+        margin-left: -90px;
+        position: absolute;
+        width: 80px;
+        padding: 10px;
+        background-color: #0707077e;
+        border-radius: 25px;
+    }
+    i{
+        color: red;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    span{
+        color: white;
+        background-color: #e5e7eb00;
+    }
+}
+
+#collections{
+   
+  
+    .hs{
+       h2{
+        color: white;
+        margin-left: 100px;
+        font-size: 1.8rem;
+       }
+       span{
+        font-size: 1.4rem;
+        margin-left: 100px;
+        color: rgba(255, 255, 255, 0.555);
+       }
+
+    }
+
+    .collection1{
+      
+        
+        img{
+            border-radius: 20px;
+            margin-top: 150px;
+            margin-left: 120px;
+            width: 400px;
+            height: 450px;
+            position: absolute;
+        }
+    }
+    .collection1_1{
+       img{
+        position: relative;
+        top: 330px;
+        left: 15px;
+        margin-top: 150px;
+        width: 120px;
+        height: 100px;
+       }
+    }
+    .collection1_2{
+        img{
+            position: relative;
+            top: 75px;
+            left: 145px;
+            margin-top: 150px;
+            width: 120px;
+            height: 100px;
+        }
+    }
+    .collection1_3{
+       img{
+        position: relative;
+        top: -178px;
+        left: 270px;
+        margin-top: 150px;
+        width: 120px;
+        height: 100px;
+       }
+    }
+
+    .collection2{
+        img{
+            border-radius: 20px;
+            margin-left: 120px;
+            width: 400px;
+            height: 450px;
+            position: absolute;
+        }
+    }
+    .collection2_1{
+       img{
+        margin-left: 150px;
+        margin-top: 350px;
+        position: absolute;
+        width: 100px;
+        height: 90px;
+       }
+    }
+    .collection2_2{
+      img{
+        margin-top: 350px;
+        margin-left: 270px;
+        position: absolute;
+        width: 100px;
+        height: 90px;
+      }
+    }
+    .collection2_3{
+        img{
+            margin-left: 390px;
+            margin-top: 350px;
+            position: absolute;
+            width: 100px;
+            height: 90px;
+        }
+    }
+   
+}
+
+
+#blocks{
+    display: flex;
+    margin-left: 50px;
+    color: white;
+    gap: 10px;
+    padding: 50px;
+    .block1{
+      border: 1px solid rgba(128, 128, 128, 0.568);
+      border-radius: 25px;
+      text-align: center;
+      padding: 2px;     
+      width: 250px;
+      font-size: 1rem;
+      
+      
+    }
+    .block2{
+        border: 1px solid rgba(128, 128, 128, 0.568);
+        border-radius: 25px;
+        text-align: center;
+        padding: 2px;     
+        width: 250px;
+    }
+    .block3{
+        border: 1px solid rgba(128, 128, 128, 0.568);
+        border-radius: 25px;
+        text-align: center;
+        padding: 2px;     
+        width: 250px;
+    }
+    .block4{
+        border: 1px solid rgba(128, 128, 128, 0.568);
+        border-radius: 25px;
+        text-align: center;
+        padding: 2px;     
+        width: 250px;
+    }
+    .block5{
+        border: 1px solid rgba(128, 128, 128, 0.568);
+        border-radius: 25px;
+        text-align: center;
+        padding: 2px;     
+        width: 250px;
+    }
+}
